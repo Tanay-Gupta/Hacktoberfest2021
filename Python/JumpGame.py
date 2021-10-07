@@ -13,4 +13,4 @@ class Solution:
         return leftind == 0
 obj = Solution()
 nums = list(map(int,input().split()))
-print(obj.canJump(nums))
+print(obj.canJump(nums)) # I am a pro 

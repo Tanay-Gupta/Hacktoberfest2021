@@ -8,22 +8,22 @@ int main()
     switch(strncmp(strrev(str1), str2, 1))
     {
         case 0:
-                printf("even");
+                printf("Even");
                 break;
         case 2:
-                printf("even");
+                printf("Even");
                 break;
         case 4:
-                printf("even");
+                printf("Even");
                 break;
         case 6:
-                printf("even");
+                printf("Even");
                 break;
         case 8:
-                printf("even");
+                printf("Even");
                 break;
         default:
-                printf("odd");
+                printf("Odd");
     }
     return 0;
 }

@@ -18,6 +18,7 @@ int main(){
     else{
         gr = 'F';
         cout<<"You are Failed!";
+        cout<<"Try Again u have the potential";
     }
     cout<<"Your Grade is : "<<gr;
 }

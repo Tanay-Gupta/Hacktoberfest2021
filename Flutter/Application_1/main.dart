@@ -17,13 +17,14 @@ class HomePage extends StatelessWidget {
         ),
         body: Center(
           child: Container(
+            height:60
+            decoration:Boxdecoration(
+              color:colors.yellow,
+              borderRadius:BorderRadius.circular(8)),
+            width:120
+            )
             
-            padding: const EdgeInsets.all(8),
-            color: Colors.teal,
-            width: 100,
-            height: 100,
-            child: Text("I am a Box"),
-          ),
-        ));
+        );
   }
+  
 }

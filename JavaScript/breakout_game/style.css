@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url('city_night.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Arial', 'Helvetica', 'sans-serif';
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+	margin: 65px auto;
+}
+
+#myCanvas {
+	background: #eee;
+	display: block;
+	margin: 35px auto;
+}
+
+footer {
+	bottom: 0;
+	display: block;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}

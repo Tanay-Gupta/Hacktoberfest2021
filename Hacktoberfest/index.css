@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+}
+.title{
+    font-weight: bold;
+    color: rgb(106, 69, 2);
+    text-align: center;
+}
+
+.light {
+        font-size: 80px;
+        color: rgba(49, 36, 15, 0.953);
+        text-align: center;
+        animation: glow 0.5s ease-in-out infinite alternate;
+      }
+      
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e68a00, 0 0 40px #e68a00, 0 0 50px #e68a00, 0 0 60px #e68a00, 0 0 70px #e68a00;
+        }
+        
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #f8bd64, 0 0 40px #f8bd64, 0 0 50px #f8bd64, 0 0 60px #f8bd64, 0 0 70px #f8bd64, 0 0 80px #f8bd64;
+        }
+      }
+img{
+    width: 100vw;
+    height: 80vh;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: silver;
+    text-align: center;
+    font-weight: 900;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: silver;
+    text-align: center;
+    font-weight: 900;
+    animation: glitch 1s linear infinite;
+}
+
+  
+@keyframes glitch{
+    2%,64%{
+      transform: translate(2px,0) skew(0deg);
+    }
+    4%,60%{
+      transform: translate(-2px,0) skew(0deg);
+    }
+    62%{
+      transform: translate(0,0) skew(5deg); 
+    }
+  }
+  
+.bounce{
+            position: relative;
+            display: inline-block;
+            color: #fff;
+            font-size: 2em;
+            animation: animate 2s ease-in-out infinite;        
+        }
+  
+        @keyframes animate {
+            0% {
+                transform: translateY(0px);
+            }
+  
+            20% {
+                transform: translateY(-20px);
+            }
+  
+            40%,
+            100% {
+                transform: translateY(0px);
+            }
+        }
+p{
+            text-align: justify;
+            color: silver;
+            font-size: larger;
+            text-align:left;
+            color: rgb(42, 52, 63);
+            background-image: linear-gradient(to right, rgb(223, 162, 82) , rgb(165, 103, 103));
+        }
+        
+.bullet{
+    background-image: linear-gradient(to right, rgb(157, 159, 213) , rgb(165, 103, 103));
+}        
